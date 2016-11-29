@@ -1,0 +1,84 @@
+/*
+ *****************************************
+ * Section Header =navbar
+ *****************************************
+ */
+
+.logo {
+  width: 72px;
+}
+
+/*
+ *****************************************
+ * Section Header =body
+ *****************************************
+ */
+
+body {
+  background-color: #f1f1f1;
+}
+
+
+
+.container {
+  width: 1066px;
+  margin: auto;
+}
+
+/*
+ *****************************************
+ * Section Header =aside
+ *****************************************
+ */
+
+aside {
+  width: 418px;
+  float: right;
+  background-color: #fff;
+  position: relative;
+}
+
+
+
+.links_container {
+  width: 220px;
+  float: right;
+  background-color: #9e9f9g;
+}
+
+.links {
+  margin: 0;
+  font-family: 'Roboto',arial,sans-serif;
+  font-style: normal;
+  text-decoration-style: solid;
+  margin-bottom: 3px;
+}
+
+h4.links {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 700;
+  color: #333;
+}
+
+span.links {
+  font-size: 11px;
+  display: block;
+  font-weight:400;
+  color: #767676;
+}
+
+img {
+  margin-left: 18px;
+}
+
+ .video-link-container {
+  width: 416px;
+}
+
+/*
+ *****************************************
+ * Section Header =video
+ *****************************************
+ */
+
