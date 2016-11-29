@@ -23,6 +23,7 @@ body {
 .container {
   width: 1066px;
   margin: auto;
+  background-color: purple;
 }
 
 /*
@@ -34,24 +35,24 @@ body {
 aside {
   width: 418px;
   float: right;
-  background-color: #fff;
+  /*background-color: #fff;*/
+  background-color: pink;
   position: relative;
 }
 
 
 
 .links_container {
-  width: 220px;
+  width: 214px;
   float: right;
   background-color: #9e9f9g;
 }
 
 .links {
-  margin: 0;
+  margin: 0 0 0 18px;
   font-family: 'Roboto',arial,sans-serif;
   font-style: normal;
   text-decoration-style: solid;
-  margin-bottom: 3px;
 }
 
 h4.links {
@@ -68,17 +69,36 @@ span.links {
   color: #767676;
 }
 
-img {
-  margin-left: 18px;
+ .video-link-container {
+  width: 382px;
+  margin: 0 18px;
+  padding-top: 9px;
 }
 
- .video-link-container {
-  width: 416px;
+.first_box {
+  padding-bottom: 17px;
+  margin-bottom: 9px;
+  border-bottom: 1px solid #e2e2e2;
 }
 
 /*
  *****************************************
- * Section Header =video
+ * Section Header =video_information
  *****************************************
  */
 
+ iframe {
+  float: left;
+ }
+
+section {
+  width: 640px;
+  float: left;
+  background-color: yellow;
+  position: relative;
+}
+
+section h3 {
+  font-family: 'Roboto',arial,sans-serif;
+  font-size: 20px;
+}
