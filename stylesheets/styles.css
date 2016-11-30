@@ -164,13 +164,40 @@ section h3 {
 }
 
 /*
- *****************************************
- * Section Header =show_more
- *****************************************
- */
+*****************************************
+* Section Header =show_more
+*****************************************
+*/
 
- h6 {
+.video-information h6 {
   font-size: 13px;
   margin: 2px 0 0 0;
- }
- 
+}
+
+.video-information p {
+  font-size: 13px;
+  margin: 7px 0;
+}
+
+.show-more {
+  border-top: 1px solid #d3d3d3;
+  position: relative;
+  margin-top: 15px;
+  padding: 4px 0;
+}
+
+.show-more p {
+  text-align: center;
+  text-transform: uppercase;
+  color: #737373;
+  font-size: 11px;
+  margin: 2px 0;
+}
+
+.show-more a {
+  text-decoration: none;
+}
+
+.show-more p:hover {
+  color: #1f2217;
+}
