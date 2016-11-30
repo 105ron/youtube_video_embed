@@ -35,8 +35,7 @@ body {
 aside {
   width: 418px;
   float: right;
-  /*background-color: #fff;*/
-  background-color: pink;
+  background-color: #fff;
   position: relative;
 }
 
@@ -94,7 +93,7 @@ span.links {
 section {
   width: 610px;
   float: left;
-  background-color: yellow;
+  background-color: #fff;
   position: relative;
   margin-top: 12px;
   padding: 15px 15px 5px 15px;
@@ -104,5 +103,12 @@ section {
 section h3 {
   font-family: 'Roboto',arial,sans-serif;
   font-size: 20px;
-  margin: 0;
+  margin: 0 0 0 -1px;
 }
+
+.video_poster {
+  position: relative;
+  text-decoration: none;
+
+}
+
