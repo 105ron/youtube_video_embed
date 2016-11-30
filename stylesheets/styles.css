@@ -16,6 +16,7 @@
 
 body {
   background-color: #f1f1f1;
+  font-family: 'Roboto',arial,sans-serif;
 }
 
 
@@ -97,18 +98,79 @@ section {
   position: relative;
   margin-top: 12px;
   padding: 15px 15px 5px 15px;
+}
 
+.video_details a {
+  text-decoration: none;
+  float: left;
+  margin: -2px 0 0 5px;
+  font-weight: 500;
+}
+
+.video_details img {
+  margin-left: -5px;
+  float: left;
 }
 
 section h3 {
-  font-family: 'Roboto',arial,sans-serif;
   font-size: 20px;
-  margin: 0 0 0 -1px;
+  font-weight: 400;
+  margin: 0 0 15px -1px;
 }
 
 .video_poster {
   position: relative;
-  text-decoration: none;
-
+  color: #333;
 }
 
+.subscribe {
+  position: relative;
+  border: 1px solid #d3d3d3;
+  background: #e52215 url(../images/icon32.png) no-repeat scroll 5px center;
+  color: white;
+  padding: 4px 4px 4px 39px;
+  font-size: 11px;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+}
+
+.subscribe:hover {
+  background-color: #cf1820;
+}
+
+.subscribers {
+  font-size: 12px;
+  color: #737373;
+  border: 1px solid #d3d3d3;
+  border-left: none;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+  padding: 4px 6px 1.5px 6px;
+}
+
+.views {
+  position: relative;
+  float: right;
+  border-bottom: 2px solid #66676c;
+  padding: 0 5px 0 45px;
+  line-height: 24px;
+  font-size: 19px;
+  color: #66676c;
+}
+
+.share-bar {
+  margin: 20px 0 5px 0;
+  clear: both;
+}
+
+/*
+ *****************************************
+ * Section Header =show_more
+ *****************************************
+ */
+
+ h6 {
+  font-size: 13px;
+  margin: 2px 0 0 0;
+ }
+ 
