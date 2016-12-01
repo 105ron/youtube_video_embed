@@ -201,3 +201,54 @@ section h3 {
 .show-more p:hover {
   color: #1f2217;
 }
+
+/*
+ *****************************************
+ * Section Header =comments
+ *****************************************
+*/
+
+input {
+  position: relative;
+  float: right;
+  height: 42px;
+  width: 540px;
+  font-size: 12px;
+}
+.first-box {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.comment-container {
+  position: relative;
+  float: left;
+  margin-top: 20px;
+}
+
+.comment-container img {
+  position: relative;
+  float: left;
+  margin-right: 14px;
+}
+
+.user {
+  color: #128ee9;
+  font-size: 13px;
+}
+
+.time {
+  text-decoration: none;
+  color: #737373;
+  font-size: 11px;
+  margin-left: 4px;
+}
+
+.comment-container p {
+  margin: 4px 0 0 0;
+  position: relative;
+  float: left;
+  font-size: 13px;
+  width: 545px;
+}
+}
